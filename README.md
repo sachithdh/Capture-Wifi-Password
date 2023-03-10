@@ -1,3 +1,3 @@
 # Capture-Wifi-Password
 
-## Only tested in Win10
+Only tested in Win10
