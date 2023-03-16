@@ -1,7 +1,6 @@
 # Capture-Wifi-Password
 
-
-<span>Capture <b>SSID name</b> and <b> Password </b> that are saved in <b>any computer </b> </span>
+Capture <b>SSID name</b> and <b> Password </b> that are saved in <b>any computer </b>
 
 ## Installation
 
