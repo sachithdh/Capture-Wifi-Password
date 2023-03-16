@@ -1,7 +1,7 @@
 # Capture-Wifi-Password
 
 
-You can capture <b>SSID name</b> and <b> Password </b> that are saved in your computer :)
+You can capture <b>SSID name</b> and <b> Password </b> that are saved in <b>any computer </b> :)
 
 ## Installation
 
