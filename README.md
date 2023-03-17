@@ -16,7 +16,7 @@ $ python3 -m pip install -r requirements.txt
 $ cd Capture-Wifi-Password
 $ python main.py
 ```
-After running the above commands, your password will be saved in a text file named ```wifi.txt```.
+password will be saved in a text file named ```wifi.txt```.
 
 Works only on Windows!
 
