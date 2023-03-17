@@ -12,7 +12,8 @@ $ git clone https://github.com/sachith-d/Capture-Wifi-Password.git
 $ python3 -m pip install -r requirements.txt
 ```
 ## Usage
-```python
+```console
+$cd Capture-Wifi-Password
 $python main.py
 ```
 After running the above commands, your password will be saved in a text file named ```wifi.txt```.
