@@ -19,7 +19,7 @@ $ python3 -m pip install -r requirements.txt
 
 $ python main.py
 ```
-password will be saved in to a text file named ```wifi.txt```.
+password will be saved in to a text file named ```wifi.txt```
 
 Works only on Windows!
 
